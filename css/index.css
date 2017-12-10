@@ -1,5 +1,9 @@
+body {
+    background: rgb(233, 118, 118);
+    
+}
+
 .logo {
     height: 300px;
-    transform: rotate(90deg);
-    
+    transform: rotate(90deg); 
 }
