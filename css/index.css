@@ -5,17 +5,29 @@
 
 .menu {
     display: grid;
+    margin-top: 5px;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-.soup-menu {
-    grid-column: 2/3;
 }
 
 @media (max-width: 500px) {
     .menu {
+        margin-top: 5px;
         display: block;
     }
 }
+
+.menu-section-container {
+    grid-column: 2/3;
+}
+
+.menu-section {
+    border: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: rgb(114, 107, 107);
+    margin-top: 5px;
+}
+
+
 
 

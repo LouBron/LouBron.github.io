@@ -1,64 +1,112 @@
 <html>
-    <head>
-      <meta charset="utf-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title>Chcik-N-Soup</title>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Chcik-N-Soup</title>
 
-      <link rel="stylesheet" href="css/index.css"/>      
+    <link rel="stylesheet" href="css/index.css"/>      
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>    
+  </head>
+  <body id="bootstrap-override">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Chick-N-Soup</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>    </head>
-    <body id="bootstrap-override">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Chick-N-Soup</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="/menu">Menu</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/catering">Catering</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/brunch">Brunch</a>
-              </li>
-            </ul>
-        </div>
-            
-      </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/catering">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/brunch">Brunch</a>
+          </li>
+        </ul>
+      </div>    
+    </nav>
 
-      <h3>Menu</h3>
-      <div class="menu">
-        <div class="card soup-menu">
-          <div class="card-header">
-            <h4 class="card-title">SALAD - SOUP - SMOOTHIES</h4>
-          </div>
-          <div class="card-body">
+    <div class="menu">
+      <div class="card menu-section-container">
+        <div class="card-header">
+          <h4 class="card-title">SALAD - SOUP - SMOOTHIES</h4>
+        </div>
+        <div class="card-body">
+          <div class="menu-section">
             <h4>Bowl: $6 Quart: $13</h4>
             <p class="card-text">1) Chicken 2) Vegetable 3) Cream of Brocoli</p>
             <p class="card-text">4) Cream of Mushroom 5) Fish Chowder 6) Crab Bisque</p>
             <p class="card-text">7) Butternut Squash 8) Potatoe Leek 9) Italian Wedding</p>
             <p class="card-text">10) Split Pea </p>
+          </div>
+          <div class="menu-section">
             <h4>Stews: $12</h4>
             <p class="card-text">1) Beef - served with rice and a side salad.</p>
             <p class="card-text">2) Turkey - served with rice and a side salad.</p>
-            
-            
           </div>
+          <div class="menu-section">
+            <h4>Salads</h4>
+            <p class="card-text">1) Baby spinach, tomatoes, beats, pecans, crumbled blue cheese   $8 </p>
+            <p class="card-text">2) Romain, corn, black beans, shredded chedar jack cheese, avocado, pico de gallo, cilantro    $9</p>
+            <p class="card-text">3) Baby kale, carrots, avocado, cucumber, red pepper, cabbage, goat cheese    $8</p>
+            <p class="card-text">4) Romain, tomatoes, onions, carrots, cucumbers  $8</p>
+            <p class="card-text">5) Baby kale, greens, apples, turkey bacon, avocado, almonds $10</p>
+            <p class="card-text">Add: grilled chicken $3 salmon $5 steak $5 shrimp $5</p>
+          </div> 
+          <div class="menu-section">
+            <h4>Protein Smoothies</h4>
+            <p class="card-text">1) Run Forest Run - almond milk, banana, pecans, whey protein, apples, hempseed $8</p>
+            <p class="card-text">2) CrossFit Strong - almond milk, almond butter, banana, 2 scoops whey protein, hempseed, coconut oil  $8</p>
+            <p class="card-text">3) Chocolate Muscle - chocolate almond milk, strawberries, banana, peanut butter, whey protein $8</p>
+          </div> 
+          <div class="menu-section">
+            <h4>Juices</h4>
+            <p class="card-text">1) Energy Boost - carrots, spinach, apple, ginger $8</p>
+            <p class="card-text">2) Stomach Strong - cucumber, apple, beets, lemon, ginger $8</p>
+            <p class="card-text">3) Incredible Greens - cucumber, celery, spinach, kale, pear $8</p>
+            <p class="card-text">Ginger Lemon Shot - Small $2 Double $4</p>
+            <p class="card-text">Orange Juice $6, Apple Juice $4, Ice Tea - Large $3.50</p>
+            <p class="card-text">Lemonade - Large $3.50 Soda Can $1.50</p>
+          </div>  
         </div>
       </div>
-    </body>
-  </html>
+    </div>
+
+    <div class="menu">
+      <div class="card menu-section-container">
+        <div class="card-header">
+          <h4 class="card-title">ENTREES</h4>
+          <p>Served with two sides</p>
+        </div>
+        <div class="card-body">
+          <div class="menu-section">
+            <p class="card-text">1) Half Chicken - house marinated 4lb Bird, cooked to perfection in our rotisserie oven with choice of sauce: BBQ, Hot, Jerk, Cilantro Lime, Cilantro Cream, Lemon Garlic $14</p>
+            <p class="card-text">4lb Bird Half Chicken - no sides $9</p>
+            <p class="card-text">4lb Bird Whole Chicken - no sides $13</p>
+            <p class="card-text">2) 10oz NY Strip - center cur sirloin steak steak cooked to specification and deliciously seasoned $19</p>
+            <p class="card-text">3) Wild Caught Salmon Fillet - lemon and herb marinated salmon fillet $14</p>
+            <p class="card-text">4) Jumbo Shrimp Scampi - jumbo shrimp in scampi sauce served over rice with a side salad or choice of a side order $14</p>
+            <p class="card-text">5) Grilled Chicken - 2 8oz chicken breasts marinated in our herb lemon marinade $13</p>
+            <p class="card-text">6) St. Louis BBQ Ribs - 1/2 Rack $13 Full Rack $22</p>
+          </div>
+         </div>   
+
+      </div>
+    </div>   
+    
+  </body>
+</html>
   
