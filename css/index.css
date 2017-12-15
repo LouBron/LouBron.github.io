@@ -3,4 +3,19 @@
     text-align: center;
 }
 
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.soup-menu {
+    grid-column: 2/3;
+}
+
+@media (max-width: 500px) {
+    .menu {
+        display: block;
+    }
+}
+
 
